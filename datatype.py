@@ -78,3 +78,4 @@ print(x+b)
 d="2.2"
 #print(int(d)) #it doesnt type cast coz inside the string is float ...only possible when it is original type
 print(float(d))
+print("over")
