@@ -52,3 +52,29 @@ def food():
         print(f"the online delivery partner name is {partner} and they ordered {quantity} {fname}")   
     name()
 food()
+
+""" type casting when place it does and when place it doesn't ..
+there are two type conversion 
+1.Implicit conversion 
+2.Explicit conversion
+"""
+#converting different data type into common data type is called imlicit or coercion
+h="wow"
+print(type(h))
+#2.done by user requirements
+ant="10"
+insects="23"
+print(type(ant))
+cast=int(ant)
+print(type(insects))
+print(type(cast))
+#when is use?
+#print(cast+insects) error
+print(cast+int(insects))
+#when doesnt type casting
+x="a"
+b="e"
+print(x+b)
+d="2.2"
+#print(int(d)) #it doesnt type cast coz inside the string is float ...only possible when it is original type
+print(float(d))
